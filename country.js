@@ -43,11 +43,7 @@ function SwitchCountry() {
 }
 
 function DisplayColors(country) {
-    // document.body.style.backgroundColor = country.colors[0]
-    // document.getElementById('Color1').style.color = country.colors[1]
-    // //document.getElementsByClassName('Color2').style.color = country.colors[2]
-    // console.log(document.getElementById(`Color1`).style.color)
-
+   
     let color1 = document.querySelector("#Color1");
     color1.style.backgroundColor = country.colors[0];
 
